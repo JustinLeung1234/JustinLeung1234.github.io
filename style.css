@@ -1,0 +1,252 @@
+body {
+  background: #21252b;
+  color: #333;
+  font-size: 14px;
+  font-family: 'Raleway', sans-serif, Helvetica;
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+	padding-left: 40px;
+	padding-top: 6px;
+	padding-right:40px;
+	padding-bottom: 20px;
+	font-weight: 300;
+	font-size: 30px;
+	color: #FFFEF2;
+}
+
+h2{
+	font-size:25px;
+	color:black;
+	font-weight:300;
+	text-decoration: underline;
+}
+
+h3{
+	font-size:18px;
+	color:black;
+	font-weight:300;
+	margin:8px;
+}
+
+
+.container-text{
+	text-indent:3%;
+	display:inline-block;
+    width:100%;
+}
+
+.container-text2{
+	text-indent:3%;
+	display:inline-block;
+	font-size: 16px;
+}
+
+.dropdown:hover .dropbtn, .dropbtn:focus {
+    background-color: gray;
+}
+
+
+.dropdown {
+    margin-right:40px;
+    padding:0px;
+	float:right;
+	overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    cursor: pointer;
+    font-size: 30px;    
+    border: none;
+    outline: none;
+    color: white;
+    padding: 5% 30px 0% 30px;
+    width:auto;
+    height: 100%;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.dropdown-content {
+    margin-right:20px;
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    width: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    opacity:0;
+    animation: dropdownmenu 500ms ease-in-out forwards
+}
+
+
+@keyframes dropdownmenu{
+    0% {opacity:0;}
+    100% {opacity:100;}
+}
+
+
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    font-size: 16px;
+
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.show {
+    display: block;
+
+}
+
+
+
+.header {
+    height:80px !important;
+    background-color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.container {
+	background: #fff;
+	padding-left:12px;
+	padding-right:12px;
+	padding-top:15px;
+	padding-bottom:40px;
+	max-width: 4000px;
+    width:100%;
+    width:auto;
+	width:93%;
+    margin: 20px 3%;	
+	box-shadow: 0 0 20px #333;
+}
+
+.centerimage{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	width:60%;
+	display:block;
+	height:auto;
+	padding:10px;
+}
+
+
+
+
+#usecase {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#usecase td, #usecase usecaseth {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#usecase tr:nth-child(even){background-color: #f2f2f2;}
+
+#usecase th {
+	border:1px solid #ddd;
+	padding-left:10px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    color: white;
+}
+
+
+
+#scoreboard {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#scoreboard td, #scoreboard usecaseth {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#scoreboard tr:nth-child(even){background-color: #f2f2f2;}
+
+#scoreboard th {
+	border:1px solid #ddd;
+	padding-left:10px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    color: white;
+}
+
+#scale {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#scale td, #scale usecaseth {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#scale tr:nth-child(even){background-color: #f2f2f2;}
+
+#scale th {
+	border:1px solid #ddd;
+	padding-left:10px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    color: white;
+}
+
+#concept {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#concept td, #concept usecaseth {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#concept tr:nth-child(even){background-color: #f2f2f2;}
+
+#concept th {
+	border:1px solid #ddd;
+	padding-left:10px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    color: white;
+}
+
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+
+.sticky + .container {
+  margin-top: 100px;
+}
+
+a.anchor{
+    display: block;
+    position: relative;
+    top:-75px;
+    visibility:hidden;
+}
