@@ -12,7 +12,7 @@ h1 {
     border: none;
     outline: none;
     color: white;
-    padding: 0 1% 0 1%;
+    padding: 0 25px 0 25px;
     width: auto;
     height: 100%;
     background-color: inherit;
@@ -57,7 +57,7 @@ h3{
 
 
 .dropdown {
-    margin-right:1%;
+    margin-right:0.5%;
     padding:0px;
 	float:right;
 	overflow: hidden;
@@ -69,7 +69,7 @@ h3{
     border: none;
     outline: none;
     color: white;
-    padding: 0% 30px 0% 30px;
+    padding: 3% 30px 0% 30px;
     width:auto;
     height: 100%;
     background-color: inherit;
@@ -83,7 +83,7 @@ h3{
 .dropdown-content {
     overflow-wrap: break-word;
     word-wrap: break-word;
-    margin-right:20px;
+    margin-right:0.5%;
     display: none;
     position: absolute;
     background-color: #f9f9f9;
@@ -122,14 +122,6 @@ h3{
 
 }
 
-.mobilewrapper{
-    height:200px;
-    max-height:200px;
-    width:100%;
-    overflow-y:scroll;
-    -webkit-overflow-scrolling:touch;
-    overflow:auto;
-}
 
 .header {
     height:6.5% !important;
