@@ -85,6 +85,7 @@ h3{
     word-wrap: break-word;
     overflow:hidden;
     overflow-y:scroll;
+    overflow-scrolling:touch;
     margin-right:0.5%;
     height:400px;
     display: none;
