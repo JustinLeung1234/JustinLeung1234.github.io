@@ -83,7 +83,10 @@ h3{
 .dropdown-content {
     overflow-wrap: break-word;
     word-wrap: break-word;
+    overflow:hidden;
+    overflow-y:scroll;
     margin-right:0.5%;
+    height:400px;
     display: none;
     position: absolute;
     background-color: #f9f9f9;
@@ -154,7 +157,6 @@ h3{
 	height:auto;
 	padding:10px;
 }
-
 
 
 
