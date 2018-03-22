@@ -39,6 +39,7 @@ h3{
 }
 
 
+
 .container-text{
 	text-indent:3%;
 	display:inline-block;
@@ -155,14 +156,22 @@ h3{
 	box-shadow: 0 0 20px #333;
 }
 
-.centerimage{
+.centerimage1{
 	display:block;
 	margin-left:auto;
 	margin-right:auto;
 	width:60%;
-	display:block;
 	height:auto;
 	padding:10px;
+}
+
+.centerimage{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    width:auto;
+    height:60%;
+    padding:10px;
 }
 
 
@@ -170,7 +179,9 @@ h3{
 #usecase {
     font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
     border-collapse: collapse;
-    width: 100%;
+    width: 80%;
+    margin-left:auto;
+    margin-right:auto;
 }
 
 #usecase td, #usecase usecaseth {
@@ -184,6 +195,7 @@ h3{
 	border:1px solid #ddd;
 	padding-left:10px;
     padding-top: 12px;
+    padding-right:10px;
     padding-bottom: 12px;
     color: white;
 }
@@ -193,7 +205,9 @@ h3{
 #scoreboard {
     font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
     border-collapse: collapse;
-    width: 100%;
+    width: 80%;
+    margin-left:auto;
+    margin-right:auto;
 }
 
 #scoreboard td, #scoreboard usecaseth {
@@ -207,6 +221,7 @@ h3{
 	border:1px solid #ddd;
 	padding-left:10px;
     padding-top: 12px;
+    padding-right:10px;
     padding-bottom: 12px;
     color: white;
 }
@@ -214,7 +229,8 @@ h3{
 #scale {
     font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
     border-collapse: collapse;
-    width: 100%;
+    margin-left:auto;
+    margin-right:auto;
 }
 
 #scale td, #scale usecaseth {
@@ -228,6 +244,7 @@ h3{
 	border:1px solid #ddd;
 	padding-left:10px;
     padding-top: 12px;
+    padding-right:10px;
     padding-bottom: 12px;
     color: white;
 }
@@ -235,7 +252,9 @@ h3{
 #concept {
     font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
     border-collapse: collapse;
-    width: 100%;
+    width: 80%;
+    margin-left:auto;
+    margin-right:auto;
 }
 
 #concept td, #concept usecaseth {
@@ -248,6 +267,7 @@ h3{
 #concept th {
 	border:1px solid #ddd;
 	padding-left:10px;
+    padding-right:10px;
     padding-top: 12px;
     padding-bottom: 12px;
     color: white;
@@ -267,7 +287,7 @@ h3{
 a.anchor{
     display: block;
     position: relative;
-    top:-60px;
+    top:-70px;
     visibility:hidden;
 }
 
