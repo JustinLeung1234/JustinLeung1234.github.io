@@ -43,6 +43,12 @@ h3{
 	text-indent:3%;
 	display:inline-block;
     width:100%;
+    font-size:18px;
+}
+
+.container-text1{
+    width:100%;
+    font-size:18px;
 }
 
 .container-text2{
