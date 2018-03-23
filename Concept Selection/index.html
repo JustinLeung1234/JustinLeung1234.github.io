@@ -1,0 +1,202 @@
+<?DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta charset="UTF-8">
+<title> Team11 </title>
+<!-- Main Style-->
+<link rel="stylesheet" type="text/css" href="../style.css">
+<!-- Font -->
+<link href="https://fonts.googleapis.com/css?family=Raleway" rel="../stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<link rel="shortcut icon" type="image/x-icon" href="../logo.ico" />
+</head>
+
+<body>
+	<div class="header">
+		<h1> Concept Selection </h1>
+	</div>
+	<div class="container">
+	</br>
+	 	<h2>Legend</h2></br>
+ 			<table id="scale" width="60%">
+			  <tr>
+			    <th width="19.5%" bgcolor="#4CAF50" align='center'>Rating</th>
+			    <th width="80.5%" bgcolor="#4CAF50" align='center'>Meaning</th>
+			  </tr>
+			  <tr>
+			    <td width="19.5%" align='center'>1</td>
+			    <td width="80.5%" align='center'>Much worse than reference concept</td>
+			  </tr>
+			  <tr>
+			    <td width="19.5%" align='center'>2</td>
+			    <td width="80.5%" align='center'>Worse than reference concept</td>
+			  </tr>
+			  <tr>
+			    <td width="19.5%" align='center'>3</td>
+			    <td width="80.5%" align='center'>Equivalent to reference concept</td>
+			  </tr>
+			  <tr>
+			    <td width="19.5%" align='center'>4</td>
+			    <td width="80.5%" align='center'>Better than reference concept</td>
+			  </tr>
+			  <tr>
+			    <td width="19.5%" align='center'>5</td>
+			    <td width="80.5%" align='center'>Much better than reference concept</td>
+			  </tr>
+			</table>
+		</br>
+	<h2>Concept Selection</h2>
+	<table id='concept' width="80%">
+			 	<tr>
+			 		<th width='19.5%' bgcolor="#4CAF50" align="left">Attribute List</th>
+			 		<th width='11.5%' bgcolor="#4CAF50" align="center">Relative Weighting</th>
+					<th width='11.5%' bgcolor="#4CAF50" align="center">Supples Game Rating</th>
+			 		<th width='11.5%' bgcolor="#4CAF50" align="center">Weighted Supply Game Rating</th>
+			 		<th width='11.5%' bgcolor="#4CAF50" align="center">Camp Building Game Rating</th>
+			 		<th width='11.5%' bgcolor="#4CAF50" align="center">Weighted Camp Building Game Rating</th>
+			 		<th width='11.5%' bgcolor="#4CAF50" align="center">Survival Game Rating</th>
+			 		<th width='11.5%' bgcolor="#4CAF50" align="center">Weighted Survival Game Rating</th>
+			 	</tr>
+			 	<tr>
+			 		<td width='19.5%' align="left">High Educational Payoff</td>
+			 		<td width='11.5%' align="center">35%
+			 		</td>
+					<td width='11.5%' align="center">2
+			 		</td>
+			 		<td width='11.5%' align="center">0.7
+			 		</td>
+			 		<td width='11.5%' align="center">3
+			 		</td>
+			 		<td width='11.5%' align="center">1.05
+			 		</td>
+			 		<td width='11.5%'' align="center">5
+			 		</td>
+			 		<td width='11.5%' align="center">1.75
+			 		</td>
+			 	</tr>
+			 	<tr>
+			 		<td width='19.5%' align="left">Smooth Learning Curve</td>
+			 		<td width='11.5%' align="center">
+			 		20%</td>
+					<td width='11.5%' align="center">3
+			 		</td>
+			 		<td width='11.5%' align="center">0.6
+			 		</td>
+			 		<td width='11.5%' align="center">3
+			 		</td>
+			 		<td width='11.5%' align="center">0.6
+			 		</td>
+			 		<td width='11.5%' align="center">3
+			 		</td>
+			 		<td width='11.5%' align="center">0.6
+			 		</td>
+			 	</tr>
+			 	<tr>
+			 		<td width='19.5%' align="left">High Entertainment Value</td>
+			 		<td width='11.5%' align="center">30%
+			 		</td>
+					<td width='11.5%' align="center">1
+			 		</td>
+			 		<td width='11.5%' align="center">0.3
+			 		</td>
+			 		<td width='11.5%' align="center">3
+			 		</td>
+			 		<td width='11.5%' align="center">0.9
+			 		</td>
+			 		<td width='11.5%' align="center">5
+			 		</td>
+			 		<td width='11.5%' align="center">1.5
+			 		</td>
+			 	</tr>
+			 	<tr>
+			 		<td width='19.5%' align="left">High Replay Value</td>
+			 		<td width='11.5%' align="center">10%
+			 		</td>
+					<td width='11.5%' align="center">4
+			 		</td>
+			 		<td width='11.5%' align="center">0.4
+			 		</td>
+			 		<td width='11.5%' align="center">3
+			 		</td>
+			 		<td width='11.5%' align="center">0.3
+			 		</td>
+			 		<td width='11.5%' align="center">4
+			 		</td>
+			 		<td width='11.5%' align="center">0.4
+			 		</td>
+			 	</tr>
+			 	<tr>
+			 		<td width='19.5%' align="left">Low Cost</td>
+			 		<td width='11.5%' align="center">5%
+			 		</td>
+					<td width='11.5%' align="center">4
+			 		</td>
+			 		<td width='11.5%' align="center">0.2
+			 		</td>
+			 		<td width='11.5%' align="center">3
+			 		</td>
+			 		<td width='11.5%' align="center">0.15
+			 		</td>
+			 		<td width='11.5%' align="center">4
+			 		</td>
+			 		<td width='11.5%' align="center">0.2
+			 		</td>
+			 	</tr>
+			 	<tr>
+			 		<td width='19.5%' align="left">Total</td>
+			 		<td width='11.5%' align="center">100%
+			 		</td>
+					<td width='11.5%'align="center">
+			 		</td>
+			 		<td width='11.5%' align="center">2.2
+			 		</td>
+			 		<td width='11.5%' align="center">
+			 		</td>
+			 		<td width='11.5%' align="center">3.0
+			 		</td>
+			 		<td width='11.5%' align="center">
+			 		</td>
+			 		<td width='11.5%' align="center">4.45
+			 		</td>
+			 	</tr>
+			 	<tr>
+			 		<td width='19.5%' align="left">Rank</td>
+			 		<td width='11%' align="center">
+			 		</td>
+					<td width='11%' align="center">
+			 		</td>
+			 		<td width='11%' align="center">3
+			 		</td>
+			 		<td width='11%' align="center">
+			 		</td>
+			 		<td width='11%' align="center">2
+			 		</td>
+			 		<td width='11%' align="center">
+			 		</td>
+			 		<td width='11%' align="center">1
+			 		</td>
+			 	</tr>
+			 	<tr>
+			 		<td width='19.5%' align="left">Recommended?</td>
+			 		<td width='11.5%' align="center">
+			 		</td>
+					<td width='11.5%' align="center">
+			 		</td>
+			 		<td width='11.5%' align="center">
+			 		</td>
+			 		<td width='11.5%' align="center">
+			 		</td>
+			 		<td width= '11.5%' align="center">
+			 		</td>
+			 		<td width='11.5%' align="center">
+			 		</td>
+			 		<td width='11.5%' align="center">Yes!
+			 		</td>
+			 	</tr>
+			 	</table>
+			 </br></br></br>
+	</div>
+</body>
+</html>
